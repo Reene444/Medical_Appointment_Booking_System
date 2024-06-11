@@ -45,7 +45,7 @@ public class AppointmentController {
     public ResponseEntity<AppointmentViewDTO> addAppointment(@RequestBody AppointmentPayloadDTO appointmentPayloadDTO){
 
         try{
-
+            System.out.println(appointmentPayloadDTO);
             Appointment appointment=new Appointment();
             Optional<Account>patient=accountService.findByID( appointmentPayloadDTO.getPatient_id());
             Optional<Account>doctor =accountService.findByID( appointmentPayloadDTO.getDoctor_id());
