@@ -39,7 +39,7 @@ $ cd my-react-app
 # Run the app
 $ npm start
 
-
+//tips: the two apps run in the local, so the backend has configured the cors.
 ```
 ## SeedData
 | ID  | AUTHORITIES | EMAIL           | NAME     | PASSWORD                                                               | ROLE   |
