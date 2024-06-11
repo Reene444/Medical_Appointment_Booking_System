@@ -46,9 +46,6 @@ $ npm start
 |-----|-------------|-----------------|----------|------------------------------------------------------------------------|--------|
 | 1   | USER        | user@user.com   | patient1 | $2a$10$3H/FseahgplsRaDZoqhZaeNmPEkK3a0KT.SGs4OOw.F8QTFoaLQ/e           | PATIENT|
 | 2   | ADMIN USER  | admin@admin.com | doctor1  | $2a$10$X7YDNtKNAmP2MXusG5zNXOrLfZhahyliBSd38PqoPgQNs7EUHjtES           | DOCTOR || ID  | AUTHORITIES | EMAIL           | NAME     | PASSWORD                                                               | ROLE   |
-|-----|-------------|-----------------|----------|------------------------------------------------------------------------|--------|
-| 1   | USER        | user@user.com   | patient1 | $2a$10$3H/FseahgplsRaDZoqhZaeNmPEkK3a0KT.SGs4OOw.F8QTFoaLQ/e           | PATIENT|
-| 2   | ADMIN USER  | admin@admin.com | doctor1  | $2a$10$X7YDNtKNAmP2MXusG5zNXOrLfZhahyliBSd38PqoPgQNs7EUHjtES           | DOCTOR |
 
 (the password is encripted by RSA)
 
