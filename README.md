@@ -59,3 +59,6 @@ $ npm start
 
 The backend started from the baseline project which means it included the authentication, the users(doctor and patient) need to be authenticated to access thess apis in the whole project,
 but there we only implement the booking funciton, and could complete the user management functions in the later.
+
+## The simple page
+![img_2.png](img_2.png)
