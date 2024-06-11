@@ -23,7 +23,7 @@ function AppointmentList({ onSelectAppointment }) {
             <ul>
                 {appointments.map((appointment) => (
                     <li key={appointment.appointment_id} onClick={() => {onSelectAppointment(appointment.appointment_id);console.log(appointment.appointment_id)}}>
-                        {appointment.appointment_id} :  {appointment.doctor_name} with {appointment.patient} on {appointment.date} at {appointment.time}
+                        appointment_id {appointment.appointment_id} :  {appointment.doctor_name} with {appointment.patient_name} on {appointment.date} at {appointment.time}
                     </li>
                 ))}
             </ul>
