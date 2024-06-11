@@ -1,0 +1,117 @@
+2024-06-11 03:59:48,404 [INFO] com.appointSystem.demo.AlbumApplication [main] Starting AlbumApplication using Java 17.0.7 with PID 64022 (/Users/oww/Documents/GitHub/Medical_Appointment_Booking_System/Appointment_booking_api/target/classes started by oww in /Users/oww/Documents/GitHub/Medical_Appointment_Booking_System/Appointment_booking_api)
+2024-06-11 03:59:48,409 [INFO] com.appointSystem.demo.AlbumApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-11 03:59:49,911 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11 03:59:50,004 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+2024-06-11 03:59:50,977 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8095 (http)
+2024-06-11 03:59:50,991 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-06-11 03:59:50,992 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-11 03:59:51,077 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-11 03:59:51,078 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2590 ms
+2024-06-11 03:59:51,136 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-11 03:59:51,346 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/db user=ROOT
+2024-06-11 03:59:51,348 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-11 03:59:51,366 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/db'
+2024-06-11 03:59:51,623 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11 03:59:51,739 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-11 03:59:51,775 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-11 03:59:52,090 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-11 03:59:52,139 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-11 03:59:53,195 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-11 03:59:53,259 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 03:59:55,650 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11 03:59:55,685 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [main] Global AuthenticationManager configured with UserDetailsService bean with name accountService
+2024-06-11 03:59:56,131 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@34ac72c3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6cd8c373, org.springframework.security.web.context.SecurityContextHolderFilter@73796ae5, org.springframework.security.web.header.HeaderWriterFilter@2b71a12e, org.springframework.web.filter.CorsFilter@449f9628, org.springframework.security.web.authentication.logout.LogoutFilter@73543048, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@28901fe7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fb40e49, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f922523, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37806ccb, org.springframework.security.web.session.SessionManagementFilter@516370c1, org.springframework.security.web.access.ExceptionTranslationFilter@3b446d7, org.springframework.security.web.access.intercept.AuthorizationFilter@702e21c]
+2024-06-11 03:59:56,556 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-06-11 03:59:56,559 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 03:59:56,561 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-11 03:59:56,574 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-11 03:59:56,599 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-11 03:59:56,614 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8095 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8095 or configure this application to listen on another port.
+
+2024-06-11 04:01:25,768 [INFO] com.appointSystem.demo.AlbumApplication [main] Starting AlbumApplication using Java 17.0.7 with PID 64566 (/Users/oww/Documents/GitHub/Medical_Appointment_Booking_System/Appointment_booking_api/target/classes started by oww in /Users/oww/Documents/GitHub/Medical_Appointment_Booking_System/Appointment_booking_api)
+2024-06-11 04:01:25,772 [INFO] com.appointSystem.demo.AlbumApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-11 04:01:27,628 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11 04:01:27,730 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2024-06-11 04:01:28,578 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8095 (http)
+2024-06-11 04:01:28,592 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-06-11 04:01:28,593 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-11 04:01:28,669 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-11 04:01:28,670 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2809 ms
+2024-06-11 04:01:28,711 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-11 04:01:28,916 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/db user=ROOT
+2024-06-11 04:01:28,918 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-11 04:01:28,936 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/db'
+2024-06-11 04:01:29,178 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11 04:01:29,230 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-11 04:01:29,258 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-11 04:01:29,538 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-11 04:01:29,586 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-11 04:01:30,596 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-11 04:01:30,654 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 04:01:31,879 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11 04:01:31,907 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [main] Global AuthenticationManager configured with UserDetailsService bean with name accountService
+2024-06-11 04:01:32,299 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@299615a5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ba6707e, org.springframework.security.web.context.SecurityContextHolderFilter@4f09d998, org.springframework.security.web.header.HeaderWriterFilter@3c20abd6, org.springframework.web.filter.CorsFilter@4b407ac7, org.springframework.security.web.authentication.logout.LogoutFilter@42bbd21c, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@154cbb46, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66694050, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7de2c19c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c5ae26d, org.springframework.security.web.session.SessionManagementFilter@1ecbb787, org.springframework.security.web.access.ExceptionTranslationFilter@375682a5, org.springframework.security.web.access.intercept.AuthorizationFilter@46c093b4]
+2024-06-11 04:01:32,707 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-06-11 04:01:32,710 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 04:01:32,713 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-11 04:01:32,934 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-11 04:01:32,960 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-11 04:01:32,976 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8095 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8095 or configure this application to listen on another port.
+
+2024-06-11 04:02:27,443 [INFO] com.appointSystem.demo.AlbumApplication [main] Starting AlbumApplication using Java 17.0.7 with PID 65018 (/Users/oww/Documents/GitHub/Medical_Appointment_Booking_System/Appointment_booking_api/target/classes started by oww in /Users/oww/Documents/GitHub/Medical_Appointment_Booking_System/Appointment_booking_api)
+2024-06-11 04:02:27,447 [INFO] com.appointSystem.demo.AlbumApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-11 04:02:28,821 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-11 04:02:28,911 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2024-06-11 04:02:29,754 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port 8095 (http)
+2024-06-11 04:02:29,768 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-06-11 04:02:29,768 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-11 04:02:29,839 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-11 04:02:29,840 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2330 ms
+2024-06-11 04:02:29,890 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-11 04:02:30,098 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/db user=ROOT
+2024-06-11 04:02:30,100 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-11 04:02:30,115 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/db'
+2024-06-11 04:02:30,358 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-11 04:02:30,406 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-11 04:02:30,435 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-11 04:02:30,699 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-11 04:02:30,742 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-11 04:02:31,668 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-11 04:02:31,722 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-11 04:02:33,541 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-11 04:02:33,593 [INFO] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [main] Global AuthenticationManager configured with UserDetailsService bean with name accountService
+2024-06-11 04:02:34,255 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3652dd19, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b6cf3c1, org.springframework.security.web.context.SecurityContextHolderFilter@46059b73, org.springframework.security.web.header.HeaderWriterFilter@21d561c9, org.springframework.web.filter.CorsFilter@702e21c, org.springframework.security.web.authentication.logout.LogoutFilter@68a1bb31, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@77737e3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bb46040, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ab1107d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c450960, org.springframework.security.web.session.SessionManagementFilter@113a89c5, org.springframework.security.web.access.ExceptionTranslationFilter@380cd266, org.springframework.security.web.access.intercept.AuthorizationFilter@4b8ba6b7]
+2024-06-11 04:02:34,757 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port 8095 (http) with context path '/'
+2024-06-11 04:02:34,952 [INFO] com.appointSystem.demo.AlbumApplication [main] Started AlbumApplication in 8.252 seconds (process running for 9.11)
+2024-06-11 04:02:39,096 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8095-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-11 04:02:39,096 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8095-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-11 04:02:39,098 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8095-exec-1] Completed initialization in 1 ms
+2024-06-11 04:02:40,755 [INFO] org.springdoc.api.AbstractOpenApiResource [http-nio-8095-exec-8] Init duration for springdoc-openapi is: 814 ms

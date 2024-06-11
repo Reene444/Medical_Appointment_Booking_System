@@ -42,11 +42,14 @@ $ npm start
 //tips: the two apps run in the local, so the backend has configured the cors.
 ```
 ## SeedData
+
+2 patients(id:1,2) and 2 doctors(id:3,4)
 | ID  | AUTHORITIES | EMAIL           | NAME     | PASSWORD                                                               | ROLE   |
 |-----|-------------|-----------------|----------|------------------------------------------------------------------------|--------|
-| 1   | USER        | user@user.com   | patient1 | $2a$10$3H/FseahgplsRaDZoqhZaeNmPEkK3a0KT.SGs4OOw.F8QTFoaLQ/e           | PATIENT|
-| 2   | ADMIN USER  | admin@admin.com | doctor1  | $2a$10$X7YDNtKNAmP2MXusG5zNXOrLfZhahyliBSd38PqoPgQNs7EUHjtES           | DOCTOR || ID  | AUTHORITIES | EMAIL           | NAME     | PASSWORD                                                               | ROLE   |
-
+| 1   | USER        | user@user.com   | patient1 | $2a$10$D9NkuAIbab95LzzjhGTEPek32tOawoq2KqyC7L64QThzxeW3CavDW           | PATIENT|
+| 2   | USER        | user2@user.com  | patient2 | $2a$10$GHAUdHH/mC73D87y.fBV3O4u/69u8ysrK3bNqodigT3K5XzO5Y5Iu           | PATIENT|
+| 3   | ADMIN USER  | admin@admin.com | doctor1  | $2a$10$04nVcDDDncE8p5qO0oRU3.voLExyG5Ybcg6nI7ZXg6RX3s87UGhke           | DOCTOR |
+| 4   | ADMIN USER  | admin2@admin.com| doctor2  | $2a$10$9cpZIlaqhEeHPENiiOpYBukg8sFmBBmOIEa3R1hboZq/f9zPregjG           | DOCTOR |
 (the password is encripted by RSA)
 
 ![img_1.png](img_1.png)

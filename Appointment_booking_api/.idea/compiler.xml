@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="appointment-system-api" />
         <module name="album-system-api" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AlbumSystem_api" options="-parameters" />
       <module name="album-system-api" options="-parameters" />
+      <module name="appointment-system-api" options="-parameters" />
     </option>
   </component>
 </project>
