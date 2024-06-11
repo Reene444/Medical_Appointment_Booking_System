@@ -1,4 +1,4 @@
-<h1 align="center">AlbumSystem Apis</h1>
+<h1 align="center">Medical_Appointment_Booking_System</h1>
 
 
 ## :sparkles: Skills
